@@ -1,5 +1,5 @@
 local ScreenGui = Instance.new("ScreenGui")
-local loadingScreen = Instance.new("ImageLabel") -- Using ImageLabel for background
+local loadingScreen = Instance.new("Frame") -- Frame for background gradient
 local loadingUICorner = Instance.new("UICorner")
 local titleLabel = Instance.new("TextLabel")
 local option1 = Instance.new("TextButton")
@@ -17,14 +17,20 @@ ScreenGui.Parent = game.CoreGui
 ScreenGui.IgnoreGuiInset = true
 ScreenGui.ResetOnSpawn = false
 
--- Loading screen settings
+-- Loading screen settings with gradient background
 loadingScreen.Name = "LoadingScreen"
 loadingScreen.Parent = ScreenGui
-loadingScreen.BackgroundTransparency = 1 -- Transparency to show the image
-loadingScreen.Image = "rbxassetid://104119557511275" -- Set the image for the background
-loadingScreen.Size = UDim2.new(0.6, 0, 0.6, 0) -- Adjusted size for mobile compatibility
-loadingScreen.Position = UDim2.new(0.2, 0, 0.2, 0)
-loadingScreen.ScaleType = Enum.ScaleType.Stretch -- This stretches the image to fit the size
+loadingScreen.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- Black background
+loadingScreen.BackgroundTransparency = 0 -- Fully opaque to show gradient
+loadingScreen.Size = UDim2.new(0.4, 0, 0.4, 0) -- Adjusted size for mobile compatibility
+loadingScreen.Position = UDim2.new(0.3, 0, 0.3, 0)
+
+local gradient = Instance.new("UIGradient")
+gradient.Color = ColorSequence.new{
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 0)), 
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 128, 255)) -- Black to ocean blue
+}
+gradient.Parent = loadingScreen
 
 loadingUICorner.Parent = loadingScreen
 loadingUICorner.CornerRadius = UDim.new(0, 15)
@@ -33,10 +39,10 @@ loadingUICorner.CornerRadius = UDim.new(0, 15)
 titleLabel.Name = "TitleLabel"
 titleLabel.Parent = loadingScreen
 titleLabel.Text = "NerdyScripts📜"
-titleLabel.Size = UDim2.new(1, 0, 0, 80) -- Increased height for bigger title
-titleLabel.Position = UDim2.new(0, 0, 0.1, 0)
+titleLabel.Size = UDim2.new(1, 0, 0, 70)
+titleLabel.Position = UDim2.new(0, 0, 0.05, 0)
 titleLabel.Font = Enum.Font.Cartoon
-titleLabel.TextScaled = true -- Scales the text to fit
+titleLabel.TextSize = 36
 titleLabel.TextColor3 = Color3.new(1, 1, 1)
 titleLabel.TextStrokeTransparency = 0
 titleLabel.TextStrokeColor3 = Color3.new(0, 0, 0)
@@ -46,8 +52,8 @@ titleLabel.BackgroundTransparency = 1
 option1.Name = "Option1"
 option1.Parent = loadingScreen
 option1.Text = "Auto Farm/Auto Rank & More"
-option1.Size = UDim2.new(0.9, 0, 0, 60) -- Adjusted for mobile compatibility
-option1.Position = UDim2.new(0.5, 0, 0.4, -50)
+option1.Size = UDim2.new(0.9, 0, 0, 40) -- Smaller buttons for mobile compatibility
+option1.Position = UDim2.new(0.5, 0, 0.4, -40)
 option1.Font = Enum.Font.Cartoon
 option1.TextScaled = true
 option1.TextColor3 = Color3.new(1, 1, 1)
@@ -64,8 +70,8 @@ option1UICorner.CornerRadius = UDim.new(0, 15)
 option2.Name = "Option2"
 option2.Parent = loadingScreen
 option2.Text = "Huge/Enchant Duping"
-option2.Size = UDim2.new(0.9, 0, 0, 60) -- Adjusted for mobile compatibility
-option2.Position = UDim2.new(0.5, 0, 0.5, 0)
+option2.Size = UDim2.new(0.9, 0, 0, 40)
+option2.Position = UDim2.new(0.5, 0, 0.5, -20)
 option2.Font = Enum.Font.Cartoon
 option2.TextScaled = true
 option2.TextColor3 = Color3.new(1, 1, 1)
@@ -82,8 +88,8 @@ option2UICorner.CornerRadius = UDim.new(0, 15)
 option3.Name = "Option3"
 option3.Parent = loadingScreen
 option3.Text = "NEW Gem DUPER!"
-option3.Size = UDim2.new(0.9, 0, 0, 60) -- Adjusted for mobile compatibility
-option3.Position = UDim2.new(0.5, 0, 0.6, 50)
+option3.Size = UDim2.new(0.9, 0, 0, 40)
+option3.Position = UDim2.new(0.5, 0, 0.6, 0)
 option3.Font = Enum.Font.Cartoon
 option3.TextScaled = true
 option3.TextColor3 = Color3.new(1, 1, 1)
@@ -100,18 +106,17 @@ option3UICorner.CornerRadius = UDim.new(0, 15)
 closeButton.Name = "CloseButton"
 closeButton.Parent = loadingScreen
 closeButton.Text = "X"
-closeButton.Size = UDim2.new(0, 50, 0, 50)
-closeButton.Position = UDim2.new(1, -60, 0, 10)
+closeButton.Size = UDim2.new(0, 40, 0, 40)
+closeButton.Position = UDim2.new(1, -45, 0, 5)
 closeButton.Font = Enum.Font.Cartoon
-closeButton.TextSize = 36
+closeButton.TextSize = 30
 closeButton.TextColor3 = Color3.new(1, 0, 0)
 closeButton.TextStrokeTransparency = 0
 closeButton.TextStrokeColor3 = Color3.new(0, 0, 0)
 closeButton.BackgroundColor3 = Color3.new(0, 0, 0)
-closeButton.BackgroundTransparency = 0.5
 closeButton.BorderSizePixel = 0
 
--- Function to make UI draggable
+-- Draggable functionality
 local UIS = game:GetService("UserInputService")
 local dragging
 local dragInput
