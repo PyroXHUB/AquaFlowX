@@ -9,7 +9,7 @@ local Section = Tab:AddSection({
 	Name = "Color Event"
 })
 Tab:AddButton({
-	Name = "Auto Color Event (did all for you including, Auto Hatch, Auto Unlock Zones, Auto Minigame & More Things In The Event)",
+	Name = "Auto Color Event (did all for you)",
 	Callback = function()
         getgenv().KiTTYWARE_ColorWar = {
 			Farm_Zones = true,
@@ -41,7 +41,7 @@ Tab:AddButton({
 })
 local Tab = Window:MakeTab({
 	Name = "Optimization",
-	Icon = "rbxassetid://125738425644577",
+	Icon = "rbxassetid://128431037719341",
 	PremiumOnly = false
 })
 local Section = Tab:AddSection({
