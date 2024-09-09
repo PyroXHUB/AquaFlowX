@@ -1,1 +1,155 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _DFaJIBVU__JW = a; end)); return(function(d,...)local o;local t;local r;local s;local c;local f;local e=24915;local n=0;local l={};while n<497 do n=n+1;while n<0x2b5 and e%0x41b2<0x20d9 do n=n+1 e=(e+775)%27219 local a=n+e if(e%0x810)<=0x408 then e=(e+0x2ef)%0x32f while n<0xc1 and e%0x49f6<0x24fb do n=n+1 e=(e+674)%24581 local o=n+e if(e%0x1634)<0xb1a then e=(e-0x381)%0x4ff2 local e=30879 if not l[e]then l[e]=0x1 f={};end elseif e%2~=0 then e=(e-0x218)%0x3739 local e=11118 if not l[e]then l[e]=0x1 r=string;end else e=(e*0x1bc)%0xb02 n=n+1 local e=6809 if not l[e]then l[e]=0x1 t=getfenv and getfenv();end end end elseif e%2~=0 then e=(e-0xe0)%0x7235 while n<0x1a4 and e%0x320a<0x1905 do n=n+1 e=(e-808)%44440 local a=n+e if(e%0x20ce)<=0x1067 then e=(e+0x39b)%0x9aa9 local e=11773 if not l[e]then l[e]=0x1 s=tonumber;end elseif e%2~=0 then e=(e+0x2f2)%0x2704 local e=60972 if not l[e]then l[e]=0x1 o=function(o)local e=0x01 local function l(n)e=e+n return o:sub(e-n,e-0x01)end while true do local n=l(0x01)if(n=="\5")then break end local e=r.byte(l(0x01))local e=l(e)if n=="\2"then e=f.LXDJHhgL(e)elseif n=="\3"then e=e~="\0"elseif n=="\6"then t[e]=function(e,n)return d(8,nil,d,n,e)end elseif n=="\4"then e=t[e]elseif n=="\0"then e=t[e][l(r.byte(l(0x01)))];end local n=l(0x08)f[n]=e end end end else e=(e+0x382)%0x8e7 n=n+1 local e=2278 if not l[e]then l[e]=0x1 c="\4\8\116\111\110\117\109\98\101\114\76\88\68\74\72\104\103\76\0\6\115\116\114\105\110\103\4\99\104\97\114\95\74\89\69\120\84\102\87\0\6\115\116\114\105\110\103\3\115\117\98\81\73\80\120\83\103\66\111\0\6\115\116\114\105\110\103\4\98\121\116\101\106\69\111\116\99\79\98\117\0\5\116\97\98\108\101\6\99\111\110\99\97\116\87\77\84\67\108\73\88\118\0\5\116\97\98\108\101\6\105\110\115\101\114\116\101\98\121\67\65\76\111\105\5";end end end else e=(e+0x28)%0x88ef n=n+1 while n<0x34d and e%0x49e0<0x24f0 do n=n+1 e=(e+811)%9525 local o=n+e if(e%0xc9a)<0x64d then e=(e-0x2e6)%0x9e19 local e=77671 if not l[e]then l[e]=0x1 end elseif e%2~=0 then e=(e*0x2d0)%0x3fb0 local e=25776 if not l[e]then l[e]=0x1 t=(not t)and _ENV or t;end else e=(e-0x355)%0x19e6 n=n+1 local e=57630 if not l[e]then l[e]=0x1 end end end end end e=(e+602)%48140 end o(c);local n={};for e=0x0,0xff do local l=f._JYExTfW(e);n[e]=l;n[l]=e;end local function a(e)return n[e];end local r=(function(r,o)local c,l=0x01,0x10 local n={{},{},{}}local t=-0x01 local e=0x01 local d=r while true do n[0x03][f.QIPxSgBo(o,e,(function()e=c+e return e-0x01 end)())]=(function()t=t+0x01 return t end)()if t==(0x0f)then t=""l=0x000 break end end local t=#o while e<t+0x01 do n[0x02][l]=f.QIPxSgBo(o,e,(function()e=c+e return e-0x01 end)())l=l+0x01 if l%0x02==0x00 then l=0x00 f.ebyCALoi(n[0x01],(a((((n[0x03][n[0x02][0x00]]or 0x00)*0x10)+(n[0x03][n[0x02][0x01]]or 0x00)+d)%0x100)));d=r+d;end end return f.WMTClIXv(n[0x01])end);o(r(171,"D0M7f:/}4.8zg&?Y:8"));o(r(65,"Ti>Zf)w0,ty5kP9{5{,f520W>P9Zy0){55Pyyywi>Zky,>wZi59*0F),>iw9>9),jyk0ti)B9)Pf0i)>{fk>,yfftk){,tfy+Dkf,tZZ9-yt)5fwF.yi0Pkkti5P0PZy{_5fwkkt{_yZ0)>Z90,yffF,Pi,iZ{>09wZw{t>iPfyw)t5)P5t>)>>fP5yfZ{>4P=0>)i9kk0>w9PiZkft>fyrik{05fP{t5t,>Zyotkw,5f!PP5{)9i>t()>wx>995550)Z0505tf0()9{,9)iiw59Z{{9ZlPty2wyi999yffwA&5>t5)iy{wPwf)P*,5{w9)9ifk9,f9wytPf,9)iiik9,ff,8Ytkw0Zy&i5{,ZZtzy);iff>99y900>{,{5P0)Zw9wy0w9>iP)tyf>>5{iy9w)590{yPw)>wPwt0)9^f9)tPZfp)k)yi)fy9w9t,)t^{PZt,>0/wkP,tfkiwkt){P{y_kk0PfZ{55,,,>a{,yf,Y>w9,t{0Zk5,95wwtZ599fywy>{{i5U0>i)90y)f,>kkf,>f{5k"));local e=(-676+(function()local t,n=0,1;(function(n,e)e(n(e and n,e),e(e,e))end)(function(e,l)if t>302 then return e end t=t+1 n=(n*972)%3508 if(n%958)<479 then n=(n*35)%25959 return e(l(l and e,e and l)and e(e,e),e(l,l))else return e end return l end,function(e,l)if t>194 then return e end t=t+1 n=(n-1013)%33826 if(n%820)>=410 then return e else return e(e(l,e),e(l,l))end return e(e(l,l),l(e,l and e))end)return n;end)())local h=f.RtmEWXui or f._TZCmtrj;local te=(getfenv)or(function()return _ENV end);local o=3;local t=2;local a=4;local le=1;local function _(k,...)local u=r(e,"YqXSxo+( F1cV=d-qVX SVo&+((- V12cxqUoy+x(xo-Fqcxo(1x(VF#1xXlx_ox+x(co+o-(SV1V=-(VX6-XoxxxV+=+dFo1(1=Vd=S-SH+X%XoxXoVX1(SFS1o(c1 cc=qdc-x-SXwxqx(oF+-F=c=VFdc--V-XqXFxoodSS cF-cSV(+c +Ff1xc S x-oo+V -1xc+Vq=1d(F(cocV=%dxo(oM++FoFX1ocX=1d=_cq-qdS---qxXxS xVV(=o-o4qcS=== dVkh+qF(1ccdc(==d---3(SVxdoF(X(-F-  c=VVd6-oqX-Fxsox++ac(xS.xxo =x-xn q X-s1qSX((d q1c(+VS=F- jZXqXXxFoc+q X (1(c1=x=F-+qR=dX(x(oFX-oV+- oF-1 1(dL-X-o2VXqxSo o=+= VFFc11c-=ToXqS1.-xx(1 c1x1FccdQdo- y(-S,xq+XdxXoF+F(F d1Sc1V-==-FuxqFX1(VFFFFx- ((x  FVixXVxqo-Xp(1Fq1 co xd-d=qS=xS xdo-( (= -cxcFVVFVl(>=XVSx5Nxq(( cFdF(c=V-17d1=ccV=}dx- vVSoSxx oV(R 1F 1VV)=od -VqlS+x xV+L(x dFVc3Vxd1QS_lqxX x9oK+x( cX1qcxV =V-+WxqFXVx ox+V 1F61xc =Xd8-o* qVxDxxo +V qFx1 cVdX-V- JVXlS(x oV(IF+1X1VVq=xd=-VqJXxo oF+g(o  F=ctVo= -d}SqxXcSVoX+x(  V1Jc1V ==-?I(q XVx/ox+c(VF31xc VVdX-x4 XxS8xxo += 2Fo1 Vddcdx- GVXSSxx oV XFVF 1=Vk=Fd -Vq6xxxoxV+q(x FFVcqVxd13(_Wq(X xSon+x(  VcxcxVF=V-S#xq XVxI+x+ (VFK1xc Vdd!-xq qVSNxxoF+V qFx1 V==fdx- H=XISxx ");local n=0;f.BrPrUdmh(function()f.izqTOBlc()n=n+1 end)local function e(l,e)if e then return n end;n=l+n;end local l,n,c=d(0,d,e,u,f.jEotcObu);local function r()local l,n=f.jEotcObu(u,e(1,3),e(5,6)+2);e(2);return(n*256)+l;end;local b=true;local b=0 local function p()local t=n();local e=n();local o=1;local t=(l(e,1,20)*(2^32))+t;local n=l(e,21,31);local e=((-1)^l(e,32));if(n==0)then if(t==b)then return e*0;else n=1;o=0;end;elseif(n==2047)then return(t==0)and(e*(1/0))or(e*(0/0));end;return f.zVxiLlHd(e,n-1023)*(o+(t/(2^52)));end;local y=n;local function g(n)local l;if(not n)then n=y();if(n==0)then return'';end;end;l=f.QIPxSgBo(u,e(1,3),e(5,6)+n-1);e(n)local e=""for n=(1+b),#l do e=e..f.QIPxSgBo(l,n,n)end return e;end;local b=#f.DPdlkpgy(s('\49.\48'))~=1 local e=n;local function _(...)return{...},f.MfSpWZRg('#',...)end local function z()local d={};local e={};local s={};local u={s,d,nil,e};local e=n()local h={}for t=1,e do local l=c();local n;if(l==2)then n=(c()~=#{});elseif(l==1)then local e=p();if b and f.LGLVGFoo(f.DPdlkpgy(e),'.(\48+)$')then e=f.VihLqJIW(e);end n=e;elseif(l==3)then n=g();end;h[t]=n;end;u[3]=c();for e=1,n()do d[e-(#{1})]=z();end;for u=1,n()do local e=c();if(l(e,1,1)==0)then local d=l(e,2,3);local f=l(e,4,6);local e={r(),r(),nil,nil};if(d==0)then e[o]=r();e[a]=r();elseif(d==#{1})then e[o]=n();elseif(d==k[2])then e[o]=n()-(2^16)elseif(d==k[3])then e[o]=n()-(2^16)e[a]=r();end;if(l(f,1,1)==1)then e[t]=h[e[t]]end if(l(f,2,2)==1)then e[o]=h[e[o]]end if(l(f,3,3)==1)then e[a]=h[e[a]]end s[u]=e;end end;return u;end;local function ee(l,n,e)local t=n;local t=e;return s(f.LGLVGFoo(f.LGLVGFoo(({f.BrPrUdmh(l)})[2],n),e))end local function ne(b,e,u)local function z(...)local r,j,k,g,s,n,c,m,p,y,z,l;local e=0;while-1<e do if 3<=e then if 5>e then if 4~=e then m={};p={...};else y=f.MfSpWZRg('#',...)-1;z={};end else if 6==e then e=-2;else l=d(7);end end else if e>0 then if e>-3 then for l=29,77 do if e~=1 then n=-41;c=-1;break;end;k=d(6,31,3,95,b);s=_ g=0;break;end;else k=d(6,31,3,95,b);s=_ g=0;end else r=d(6,78,1,11,b);j=d(6,56,2,40,b);end end e=e+1;end;for e=0,y do if(e>=k)then m[e-k]=p[e+1];else l[e]=p[e+1];end;end;local e=y-k+1 local e;local d;local function f(...)while true do end end while true do if n<-40 then n=n+42 end e=r[n];d=e[le];if d>11 then if 17<d then if 20>=d then if 19<=d then if d==20 then u[e[o]]=l[e[t]];else n=e[o];end else l[e[t]]();end else if d>=23 then if 22<=d then repeat if d~=23 then l[e[t]]=u[e[o]];break;end;if(l[e[t]]~=e[a])then n=n+1;else n=e[o];end;until true;else if(l[e[t]]~=e[a])then n=n+1;else n=e[o];end;end else if d>19 then repeat if 21~=d then local e=e[t]l[e]=l[e](h(l,e+1,c))break;end;u[e[o]]=l[e[t]];until true;else u[e[o]]=l[e[t]];end end end else if d<=14 then if 12<d then if d~=13 then n=e[o];else local f,b,u,g,y,j,p,d,_,m,k;f=e[t];b=l[e[o]];l[f+1]=b;l[f]=b[e[a]];n=n+1;e=r[n];d=0;while d>-1 do if 3<=d then if 5>d then if d~=2 then repeat if 3~=d then p=u[g];break;end;j=u[y];until true;else p=u[g];end else if 6==d then d=-2;else l(p,j);end end else if 1>d then u=e;else if-1<=d then repeat if 2~=d then g=t;break;end;y=o;until true;else y=o;end end end d=d+1 end n=n+1;e=r[n];f=e[t]_,m=s(l[f](h(l,f+1,e[o])))c=m+f-1 k=0;for e=f,c do k=k+1;l[e]=_[k];end;n=n+1;e=r[n];f=e[t]l[f]=l[f](h(l,f+1,c))n=n+1;e=r[n];l[e[t]]();n=n+1;e=r[n];do return end;end else l[e[t]]=u[e[o]];end else if d<16 then l[e[t]]=(e[o]~=0);else if d>15 then repeat if 17~=d then do return end;break;end;local n=e[t]local t,e=s(l[n](h(l,n+1,e[o])))c=e+n-1 local e=0;for n=n,c do e=e+1;l[n]=t[e];end;until true;else local n=e[t]local t,e=s(l[n](h(l,n+1,e[o])))c=e+n-1 local e=0;for n=n,c do e=e+1;l[n]=t[e];end;end end end end else if d>=6 then if 9<=d then if d<=9 then l(e[t],e[o]);else if d~=8 then repeat if d>10 then l[e[t]]();break;end;local d,k,y,p,b;for f=0,6 do if 3<=f then if f<=4 then if 4==f then d=e[t]l[d]=l[d](h(l,d+1,c))n=n+1;e=r[n];else d=e[t]y,p=s(l[d](h(l,d+1,e[o])))c=p+d-1 b=0;for e=d,c do b=b+1;l[e]=y[b];end;n=n+1;e=r[n];end else if 2<=f then for d=34,52 do if f>5 then l[e[t]]=u[e[o]];break;end;l[e[t]]();n=n+1;e=r[n];break;end;else l[e[t]]=u[e[o]];end end else if 1>f then l[e[t]]=u[e[o]];n=n+1;e=r[n];else if f>=-3 then for c=22,64 do if f<2 then d=e[t];k=l[e[o]];l[d+1]=k;l[d]=k[e[a]];n=n+1;e=r[n];break;end;l(e[t],e[o]);n=n+1;e=r[n];break;end;else d=e[t];k=l[e[o]];l[d+1]=k;l[d]=k[e[a]];n=n+1;e=r[n];end end end end until true;else local d,k,p,y,b;for f=0,6 do if 3<=f then if f<=4 then if 4==f then d=e[t]l[d]=l[d](h(l,d+1,c))n=n+1;e=r[n];else d=e[t]p,y=s(l[d](h(l,d+1,e[o])))c=y+d-1 b=0;for e=d,c do b=b+1;l[e]=p[b];end;n=n+1;e=r[n];end else if 2<=f then for d=34,52 do if f>5 then l[e[t]]=u[e[o]];break;end;l[e[t]]();n=n+1;e=r[n];break;end;else l[e[t]]=u[e[o]];end end else if 1>f then l[e[t]]=u[e[o]];n=n+1;e=r[n];else if f>=-3 then for c=22,64 do if f<2 then d=e[t];k=l[e[o]];l[d+1]=k;l[d]=k[e[a]];n=n+1;e=r[n];break;end;l(e[t],e[o]);n=n+1;e=r[n];break;end;else d=e[t];k=l[e[o]];l[d+1]=k;l[d]=k[e[a]];n=n+1;e=r[n];end end end end end end else if 6<d then if 4<=d then for n=45,68 do if d~=7 then local t=e[t];local n=l[e[o]];l[t+1]=n;l[t]=n[e[a]];break;end;l[e[t]]=(e[o]~=0);break;end;else l[e[t]]=(e[o]~=0);end else for d=0,3 do if d>1 then if 1<=d then repeat if d<3 then l[e[t]]=u[e[o]];n=n+1;e=r[n];break;end;if(l[e[t]]~=e[a])then n=n+1;else n=e[o];end;until true;else if(l[e[t]]~=e[a])then n=n+1;else n=e[o];end;end else if d~=0 then u[e[o]]=l[e[t]];n=n+1;e=r[n];else l[e[t]]=(e[o]~=0);n=n+1;e=r[n];end end end end end else if d<=2 then if 0<d then if d>-3 then repeat if d>1 then local n=e[t]local t,e=s(l[n](h(l,n+1,e[o])))c=e+n-1 local e=0;for n=n,c do e=e+1;l[n]=t[e];end;break;end;local e=e[t]l[e]=l[e](h(l,e+1,c))until true;else local e=e[t]l[e]=l[e](h(l,e+1,c))end else local n=e[t];local t=l[e[o]];l[n+1]=t;l[n]=t[e[a]];end else if d<=3 then do return end;else if d>2 then for f=44,54 do if 5>d then l(e[t],e[o]);break;end;if(l[e[t]]~=e[a])then n=n+1;else n=e[o];end;break;end;else if(l[e[t]]~=e[a])then n=n+1;else n=e[o];end;end end end end end n=1+n;end;end;return z end;local o=0xff;local a={};local d=(1);local t='';(function(n)local l=n local r=0x00 local e=0x00 l={(function(c)if r>0x2e then return c end r=r+1 e=(e+0x8a2-c)%0x4e return(e%0x03==0x1 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x60);end return true end)'QxbSF'and l[0x1](0x286+c))or(e%0x03==0x0 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x4f);end return true end)'LjXZP'and l[0x2](c+0x168))or(e%0x03==0x2 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x61);t={t..'\58 a',t};a[d]=z();d=d+((not f.XQslrClv)and 1 or 0);t[1]='\58'..t[1];o[2]=0xff;end return true end)'DGxwU'and l[0x3](c+0x36a))or c end),(function(d)if r>0x24 then return d end r=r+1 e=(e+0xd24-d)%0x1b return(e%0x03==0x2 and(function(l)if not n[l]then e=e+0x01 n[l]=(0xf1);t='\37';o={function()o()end};t=t..'\100\43';end return true end)'QGCnR'and l[0x1](0x391+d))or(e%0x03==0x0 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x68);end return true end)'YDzrs'and l[0x2](d+0x153))or(e%0x03==0x1 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x36);end return true end)'FWGpT'and l[0x3](d+0x39c))or d end),(function(f)if r>0x24 then return f end r=r+1 e=(e+0x924-f)%0x19 return(e%0x03==0x2 and(function(l)if not n[l]then e=e+0x01 n[l]=(0xaf);a[d]=te();d=d+o;end return true end)'RdfWK'and l[0x1](0x203+f))or(e%0x03==0x0 and(function(l)if not n[l]then e=e+0x01 n[l]=(0xba);end return true end)'BsGUm'and l[0x2](f+0x381))or(e%0x03==0x1 and(function(l)if not n[l]then e=e+0x01 n[l]=(0xeb);o[2]=(o[2]*(ee(function()a()end,h(t))-ee(o[1],h(t))))+1;a[d]={};o=o[2];d=d+o;end return true end)'vMJyc'and l[0x3](f+0x1c0))or f end)}l[0x2](0x1fe8)end){};local e=ne(h(a));return e(...);end return _((function()local n={}local e=0x01;local l;if f.XQslrClv then l=f.XQslrClv(_)else l=''end if f.LGLVGFoo(l,f._MWJvqSp)then e=e+0;else e=e+1;end n[e]=0x02;n[n[e]+0x01]=0x03;return n;end)(),...)end)((function(e,l,n,t,o,d)local d;if 4<=e then if e>5 then if 6>=e then do return o[n]end;else if e>5 then for l=28,87 do if e<8 then do return setmetatable({},{['__\99\97\108\108']=function(e,l,o,t,n)if n then return e[n]elseif t then return e else e[l]=o end end})end break;end;do return n(e,nil,n);end break;end;else do return n(e,nil,n);end end end else if e>=2 then for d=13,72 do if e~=5 then local e=t;local d,r,f=o(2);do return function()local t,o,l,n=l(n,e(e,e),e(e,e)+3);e(4);return(n*d)+(l*r)+(o*f)+t;end;end;break;end;local e=t;do return function()local n=l(n,e(e,e),e(e,e));e(1);return n;end;end;break;end;else local e=t;do return function()local n=l(n,e(e,e),e(e,e));e(1);return n;end;end;end end else if e<2 then if e~=0 then do return function(l,e,n)if n then local e=(l/2^(e-1))%2^((n-1)-(e-1)+1);return e-e%1;else local e=2^(e-1);return(l%(e+e)>=e)and 1 or 0;end;end;end;else do return l(1),l(4,o,t,n,l),l(5,o,t,n)end;end else if e>-1 then repeat if e<3 then do return 16777216,65536,256 end;break;end;do return l(1),l(4,o,t,n,l),l(5,o,t,n)end;until true;else do return 16777216,65536,256 end;end end end end),...)
+local ScreenGui = Instance.new("ScreenGui")
+local loadingScreen = Instance.new("ImageLabel") -- Using ImageLabel for background
+local loadingUICorner = Instance.new("UICorner")
+local titleLabel = Instance.new("TextLabel")
+local option1 = Instance.new("TextButton")
+local option1UICorner = Instance.new("UICorner")
+local option2 = Instance.new("TextButton")
+local option2UICorner = Instance.new("UICorner")
+local option3 = Instance.new("TextButton")
+local option3UICorner = Instance.new("UICorner")
+local closeButton = Instance.new("TextButton")
+
+-- Adding the ScreenGui to CoreGui
+ScreenGui.Parent = game.CoreGui
+
+-- Ensure UI Supports Mobile Executors
+ScreenGui.IgnoreGuiInset = true
+ScreenGui.ResetOnSpawn = false
+
+-- Loading screen settings
+loadingScreen.Name = "LoadingScreen"
+loadingScreen.Parent = ScreenGui
+loadingScreen.BackgroundTransparency = 1 -- Transparency to show the image
+loadingScreen.Image = "rbxassetid://104119557511275" -- Set the image for the background
+loadingScreen.Size = UDim2.new(0.6, 0, 0.6, 0) -- Adjusted size for mobile compatibility
+loadingScreen.Position = UDim2.new(0.2, 0, 0.2, 0)
+loadingScreen.ScaleType = Enum.ScaleType.Stretch -- This stretches the image to fit the size
+
+loadingUICorner.Parent = loadingScreen
+loadingUICorner.CornerRadius = UDim.new(0, 15)
+
+-- Title label settings (with larger text and scaling)
+titleLabel.Name = "TitleLabel"
+titleLabel.Parent = loadingScreen
+titleLabel.Text = "NerdyScripts📜"
+titleLabel.Size = UDim2.new(1, 0, 0, 80) -- Increased height for bigger title
+titleLabel.Position = UDim2.new(0, 0, 0.1, 0)
+titleLabel.Font = Enum.Font.Cartoon
+titleLabel.TextScaled = true -- Scales the text to fit
+titleLabel.TextColor3 = Color3.new(1, 1, 1)
+titleLabel.TextStrokeTransparency = 0
+titleLabel.TextStrokeColor3 = Color3.new(0, 0, 0)
+titleLabel.BackgroundTransparency = 1
+
+-- Option 1 settings
+option1.Name = "Option1"
+option1.Parent = loadingScreen
+option1.Text = "Auto Farm/Auto Rank & More"
+option1.Size = UDim2.new(0.9, 0, 0, 60) -- Adjusted for mobile compatibility
+option1.Position = UDim2.new(0.5, 0, 0.4, -50)
+option1.Font = Enum.Font.Cartoon
+option1.TextScaled = true
+option1.TextColor3 = Color3.new(1, 1, 1)
+option1.TextStrokeTransparency = 0
+option1.TextStrokeColor3 = Color3.new(0, 0, 0)
+option1.BackgroundColor3 = Color3.fromRGB(50, 160, 240)
+option1.AnchorPoint = Vector2.new(0.5, 0)
+option1.BorderSizePixel = 0
+
+option1UICorner.Parent = option1
+option1UICorner.CornerRadius = UDim.new(0, 15)
+
+-- Option 2 settings
+option2.Name = "Option2"
+option2.Parent = loadingScreen
+option2.Text = "Huge/Enchant Duping"
+option2.Size = UDim2.new(0.9, 0, 0, 60) -- Adjusted for mobile compatibility
+option2.Position = UDim2.new(0.5, 0, 0.5, 0)
+option2.Font = Enum.Font.Cartoon
+option2.TextScaled = true
+option2.TextColor3 = Color3.new(1, 1, 1)
+option2.TextStrokeTransparency = 0
+option2.TextStrokeColor3 = Color3.new(0, 0, 0)
+option2.BackgroundColor3 = Color3.fromRGB(50, 160, 240)
+option2.AnchorPoint = Vector2.new(0.5, 0)
+option2.BorderSizePixel = 0
+
+option2UICorner.Parent = option2
+option2UICorner.CornerRadius = UDim.new(0, 15)
+
+-- Option 3 settings
+option3.Name = "Option3"
+option3.Parent = loadingScreen
+option3.Text = "NEW Gem DUPER!"
+option3.Size = UDim2.new(0.9, 0, 0, 60) -- Adjusted for mobile compatibility
+option3.Position = UDim2.new(0.5, 0, 0.6, 50)
+option3.Font = Enum.Font.Cartoon
+option3.TextScaled = true
+option3.TextColor3 = Color3.new(1, 1, 1)
+option3.TextStrokeTransparency = 0
+option3.TextStrokeColor3 = Color3.new(0, 0, 0)
+option3.BackgroundColor3 = Color3.fromRGB(50, 160, 240)
+option3.AnchorPoint = Vector2.new(0.5, 0)
+option3.BorderSizePixel = 0
+
+option3UICorner.Parent = option3
+option3UICorner.CornerRadius = UDim.new(0, 15)
+
+-- Close button settings
+closeButton.Name = "CloseButton"
+closeButton.Parent = loadingScreen
+closeButton.Text = "X"
+closeButton.Size = UDim2.new(0, 50, 0, 50)
+closeButton.Position = UDim2.new(1, -60, 0, 10)
+closeButton.Font = Enum.Font.Cartoon
+closeButton.TextSize = 36
+closeButton.TextColor3 = Color3.new(1, 0, 0)
+closeButton.TextStrokeTransparency = 0
+closeButton.TextStrokeColor3 = Color3.new(0, 0, 0)
+closeButton.BackgroundColor3 = Color3.new(0, 0, 0)
+closeButton.BackgroundTransparency = 0.5
+closeButton.BorderSizePixel = 0
+
+-- Function to make UI draggable
+local UIS = game:GetService("UserInputService")
+local dragging
+local dragInput
+local dragStart
+local startPos
+
+local function update(input)
+    local delta = input.Position - dragStart
+    loadingScreen.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+end
+
+loadingScreen.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        dragging = true
+        dragStart = input.Position
+        startPos = loadingScreen.Position
+
+        input.Changed:Connect(function()
+            if input.UserInputState == Enum.UserInputState.End then
+                dragging = false
+            end
+        end)
+    end
+end)
+
+loadingScreen.InputChanged:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+        dragInput = input
+    end
+end)
+
+UIS.InputChanged:Connect(function(input)
+    if input == dragInput and dragging then
+        update(input)
+    end
+end)
+
+-- Close button functionality
+closeButton.MouseButton1Click:Connect(function()
+    loadingScreen:Destroy()
+end)
