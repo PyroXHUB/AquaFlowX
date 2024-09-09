@@ -1,9 +1,9 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Pet Simulator 99 - NerdyScripts Premium", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Pet Simulator 99 - NerdyScripts Premium", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 local Tab = Window:MakeTab({
 	Name = "Event",
 	Icon = "rbxassetid://91122277631744",
-	PremiumOnly = true
+	PremiumOnly = false
 })
 local Section = Tab:AddSection({
 	Name = "Color Event"
@@ -42,7 +42,7 @@ Tab:AddButton({
 local Tab = Window:MakeTab({
 	Name = "Optimization",
 	Icon = "rbxassetid://128431037719341",
-	PremiumOnly = true
+	PremiumOnly = false
 })
 local Section = Tab:AddSection({
 	Name = "Startup Settings"
@@ -170,7 +170,7 @@ Tab:AddToggle({
 local Tab = Window:MakeTab({
 	Name = "Farming",
 	Icon = "rbxassetid://84230920381687",
-	PremiumOnly = true
+	PremiumOnly = false
 })
 local Section = Tab:AddSection({
 	Name = "Farming Settings"
@@ -230,7 +230,7 @@ Tab:AddToggle({
 local Tab = Window:MakeTab({
 	Name = "Farming",
 	Icon = "rbxassetid://105872113521287",
-	PremiumOnly = true
+	PremiumOnly = false
 })
 Tab:AddDropdown({
 	Name = "Select Egg",
@@ -298,7 +298,7 @@ Tab:AddToggle({
 local Tab = Window:MakeTab({
 	Name = "Inventory",
 	Icon = "rbxassetid://83298468445522",
-	PremiumOnly = true
+	PremiumOnly = false
 })
 local Section = Tab:AddSection({
 	Name = "Consumables Settings"
@@ -452,7 +452,7 @@ Tab:AddToggle({
 local Tab = Window:MakeTab({
 	Name = "World",
 	Icon = "rbxassetid://140053344971368",
-	PremiumOnly = true
+	PremiumOnly = false
 })
 local Section = Tab:AddSection({
 	Name = "Instance Settings"
@@ -490,7 +490,7 @@ Tab:AddButton({
 local Tab = Window:MakeTab({
 	Name = "Machines",
 	Icon = "rbxassetid://122548442562335",
-	PremiumOnly = true
+	PremiumOnly = false
 })
 Tab:AddParagraph("Note:","These features will not work upon updates that introduce new WORLDS, until developers add new machine locations")
 Tab:AddDropdown({
@@ -518,7 +518,7 @@ Tab:AddToggle({
 local Tab = Window:MakeTab({
 	Name = "Settings",
 	Icon = "rbxassetid://97447207438791",
-	PremiumOnly = true
+	PremiumOnly = false
 })
 local Section = Tab:AddSection({
 	Name = "Interface Settings"
