@@ -12,31 +12,31 @@ Tab:AddButton({
 	Name = "Auto Color Event (did all for you including, Auto Hatch, Auto Unlock Zones, Auto Minigame & More Things In The Event)",
 	Callback = function()
         getgenv().KiTTYWARE_ColorWar = {
-            Farm_Zones = true,
-            Farming_Misc = {
-                Pets_Per_Breakable = 1,
-                Event_Specific = {
-                    Color_Gifts = {Enabled = true, Minimum_Buckets = 75},
-                    Clan_Points = {Enabled = false, Minimum_Buckets = 50},
-                    Stay_Teams = {Enabled = true, Only_Winning = true},
-                    Graffiti_Gifts = {Enabled = true},
-                },
-            },
-            Hatch_Eggs = true,
-            Hatching_Misc = {
-                discord_UserID = "",
-                hugeNotif_Webhook = "Enter your Webhook Url.",
-                hugeNotif_Enabled = false,
-                autoMail_User = "Enter your Username.",
-                autoMail_Enabled = false,
-            },
-            Farm_Minigame = true,
-        
-            StatsGui = false,
-            Fps_Boost1 = false,
-            Fps_Boost2 = false,
-        }
-        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/38e4778402a1d51414b40ab60274c5ed.lua"))()
+			Farm_Zones = true,
+			Farming_Misc = {
+				Pets_Per_Breakable = 1,
+				Event_Specific = {
+					Color_Gifts = {Enabled = true, Minimum_Buckets = 75},
+					Clan_Points = {Enabled = false, Minimum_Buckets = 50},
+					Stay_Teams = {Enabled = true, Only_Winning = true},
+					Graffiti_Gifts = {Enabled = true},
+				},
+			},
+			Hatch_Eggs = true,
+			Hatching_Misc = {
+				discord_UserID = "",
+				hugeNotif_Webhook = "Enter your Webhook Url.",
+				hugeNotif_Enabled = false,
+				autoMail_User = "Enter your Username.",
+				autoMail_Enabled = false,
+			},
+			Farm_Minigame = true,
+		
+			StatsGui = false,
+			Fps_Boost1 = false,
+			Fps_Boost2 = false,
+		}
+		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/38e4778402a1d51414b40ab60274c5ed.lua"))()
   	end    
 })
 local Tab = Window:MakeTab({
@@ -492,7 +492,7 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://122548442562335",
 	PremiumOnly = false
 })
-Tab:AddParagraph("Note:","These features will not work upon updates that introduce new "WORLDS", until developers add new machine locations")
+Tab:AddParagraph("Note:","These features will not work upon updates that introduce new WORLDS, until developers add new machine locations")
 Tab:AddDropdown({
 	Name = "Select Method",
 	Default = "All Available Pets",
